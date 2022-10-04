@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct MultiWebView: View {
-    
+
     @EnvironmentObject var appPrefs: AppPreferences
-    
+
     var url1: URL
     var url2: URL
-    
+
     var body: some View {
         VStack {
             WebView(url: url1)
@@ -24,6 +24,6 @@ struct MultiWebView: View {
 
 struct MultiWebView_Previews: PreviewProvider {
     static var previews: some View {
-        MultiWebView(url1: URL(string: "https://www.example.com")!, url2: URL(string:"https://www.bbc.co.uk")!)
+        MultiWebView(url1: URL(string: "https://www.example.com")!, url2: URL(string: "https://www.bbc.co.uk")!)
     }
 }

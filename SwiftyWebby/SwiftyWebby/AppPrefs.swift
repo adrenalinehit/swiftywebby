@@ -10,9 +10,8 @@ import WebKit
 
 class AppPreferences: ObservableObject {
     @Published var webprefs: WKWebViewConfiguration
-    
+
     init() {
         webprefs = WKWebViewConfiguration()
     }
 }
-
