@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var appPrefs: AppPreferences
+    
     var body: some View {
         VStack {
             NavigationStack {
@@ -17,6 +20,8 @@ struct ContentView: View {
                 
                 NavigationLink("Multiple webviews on page",
                                destination: MultiWebView(url1: URL(string: "https://m.skybet.com")!, url2: URL(string: "https://m.skybet.com")!))
+                
+                NavigationLink("Cookie Jar", destination: CookieJar(cookiePrint: [""]))
             }
         }
     }

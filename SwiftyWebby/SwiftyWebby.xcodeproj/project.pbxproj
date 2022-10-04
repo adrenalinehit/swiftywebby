@@ -13,6 +13,8 @@
 		9B97828928EC38C000417181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B97828828EC38C000417181 /* Preview Assets.xcassets */; };
 		9B97829028EC390300417181 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97828F28EC390300417181 /* WebView.swift */; };
 		9B97829228EC3A6E00417181 /* MultiWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97829128EC3A6E00417181 /* MultiWebView.swift */; };
+		9B97829428EC3BE800417181 /* CookieJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97829328EC3BE800417181 /* CookieJar.swift */; };
+		9B97829628EC3F4E00417181 /* AppPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97829528EC3F4E00417181 /* AppPrefs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		9B97828828EC38C000417181 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B97828F28EC390300417181 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		9B97829128EC3A6E00417181 /* MultiWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWebView.swift; sourceTree = "<group>"; };
+		9B97829328EC3BE800417181 /* CookieJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieJar.swift; sourceTree = "<group>"; };
+		9B97829528EC3F4E00417181 /* AppPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPrefs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				9B97828728EC38C000417181 /* Preview Content */,
 				9B97828F28EC390300417181 /* WebView.swift */,
 				9B97829128EC3A6E00417181 /* MultiWebView.swift */,
+				9B97829328EC3BE800417181 /* CookieJar.swift */,
+				9B97829528EC3F4E00417181 /* AppPrefs.swift */,
 			);
 			path = SwiftyWebby;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			files = (
 				9B97829028EC390300417181 /* WebView.swift in Sources */,
 				9B97829228EC3A6E00417181 /* MultiWebView.swift in Sources */,
+				9B97829628EC3F4E00417181 /* AppPrefs.swift in Sources */,
 				9B97828428EC38C000417181 /* ContentView.swift in Sources */,
+				9B97829428EC3BE800417181 /* CookieJar.swift in Sources */,
 				9B97828228EC38C000417181 /* SwiftyWebbyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

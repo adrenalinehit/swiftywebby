@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftyWebbyApp: App {
+    
+    @StateObject var appPrefs = AppPreferences()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(appPrefs)
         }
     }
 }

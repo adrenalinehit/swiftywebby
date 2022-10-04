@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MultiWebView: View {
+    
+    @EnvironmentObject var appPrefs: AppPreferences
+    
     var url1: URL
     var url2: URL
     
