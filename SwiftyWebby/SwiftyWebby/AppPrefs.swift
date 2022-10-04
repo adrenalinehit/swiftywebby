@@ -12,6 +12,9 @@ class AppPreferences: ObservableObject {
     @Published var webprefs: WKWebViewConfiguration
 
     init() {
-        webprefs = WKWebViewConfiguration()
+        var config = WKWebViewConfiguration()
+        config.processPool = WKProcessPool()
+
+        webprefs = config
     }
 }

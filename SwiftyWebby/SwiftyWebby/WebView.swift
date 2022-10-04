@@ -15,7 +15,6 @@ struct WebView: UIViewRepresentable {
     var url: URL
 
     func makeUIView(context: Context) -> WKWebView {
-
         return WKWebView(frame: CGRect(x: 100, y: 200, width: 200, height: 200), configuration: appPrefs.webprefs)
     }
 
