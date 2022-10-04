@@ -11,6 +11,8 @@
 		9B97828428EC38C000417181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97828328EC38C000417181 /* ContentView.swift */; };
 		9B97828628EC38C000417181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B97828528EC38C000417181 /* Assets.xcassets */; };
 		9B97828928EC38C000417181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B97828828EC38C000417181 /* Preview Assets.xcassets */; };
+		9B97829028EC390300417181 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97828F28EC390300417181 /* WebView.swift */; };
+		9B97829228EC3A6E00417181 /* MultiWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97829128EC3A6E00417181 /* MultiWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9B97828328EC38C000417181 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B97828528EC38C000417181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B97828828EC38C000417181 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B97828F28EC390300417181 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9B97829128EC3A6E00417181 /* MultiWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				9B97828328EC38C000417181 /* ContentView.swift */,
 				9B97828528EC38C000417181 /* Assets.xcassets */,
 				9B97828728EC38C000417181 /* Preview Content */,
+				9B97828F28EC390300417181 /* WebView.swift */,
+				9B97829128EC3A6E00417181 /* MultiWebView.swift */,
 			);
 			path = SwiftyWebby;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B97829028EC390300417181 /* WebView.swift in Sources */,
+				9B97829228EC3A6E00417181 /* MultiWebView.swift in Sources */,
 				9B97828428EC38C000417181 /* ContentView.swift in Sources */,
 				9B97828228EC38C000417181 /* SwiftyWebbyApp.swift in Sources */,
 			);

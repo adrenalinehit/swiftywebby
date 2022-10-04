@@ -10,12 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationStack {
+                NavigationLink("Web View", destination: WebView(url: URL(string: "https://m.skybet.com")!))
+                
+                NavigationLink("Web View number 2", destination: WebView(url: URL(string: "https://m.skybet.com")!))
+                
+                NavigationLink("Multiple webviews on page",
+                               destination: MultiWebView(url1: URL(string: "https://m.skybet.com")!, url2: URL(string: "https://m.skybet.com")!))
+            }
         }
-        .padding()
     }
 }
 
